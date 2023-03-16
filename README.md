@@ -16,4 +16,8 @@ I used css to style and design my resume
 -flexbox
 -font color
 
+wifeframe
+-figma
+-https://www.figma.com/file/AMiz86KYPnrhgWaG53YHvU/Untitled?node-id=0%3A1&t=7aiKeun1hcFxH6Pi-1
+
 
