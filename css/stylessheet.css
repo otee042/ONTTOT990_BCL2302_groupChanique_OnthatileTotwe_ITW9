@@ -1,0 +1,147 @@
+/* styling for my whole document */
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: #7EC8E3;
+    border-color: black;
+    border-style: solid;
+}
+/* header */
+header{
+    background-image: url(https://img.freepik.com/free-vector/abstract-fluid-neon-color-3d-effect-business-background-banner-design-multipurpose_1340-16790.jpg);
+    background-size: cover;
+}
+h1{
+    color: whitesmoke;
+}
+h4{
+    color: whitesmoke;
+}
+p{
+    font-size: large;
+}
+a{
+    text-decoration: none;
+}
+
+/* contacts */
+.contacts{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* container */
+.container-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+
+}
+.container-1{
+    background-color: gray;
+    border: solid;
+    margin: 10px;
+    border-radius: 20px;
+
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+}
+.container-2{
+    background-color: gray;
+    border: solid;
+    margin: 10px;
+    border-radius: 20px;
+    
+}
+.container-3{
+    background-color: gray;
+    border: solid;
+    margin: 10px;
+    border-radius: 20px;
+    
+}
+h2{
+    color: darkblue;
+    margin: 20px;
+
+}
+/* picture */
+.pic{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: solid white;
+    margin-top: 50px;
+
+}
+/* form */
+.form{
+    background-color: 0077B6;
+    margin: 20px;
+}
+/* menu bar*/
+.nav{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: whitesmoke;
+    border-radius: 10px;
+}
+a{ 
+    color: blue;
+}
+a:hover{
+    color: white;
+    font-size: large;
+}
+/* flexbox */
+.hearder{
+    display: flex;
+}
+.picture{
+    flex: 1
+
+}
+.intro{
+    flex: 1;
+
+}
+/* footer*/
+footer{
+    background-color: rgb(144, 142, 142);
+    border: solid;
+    margin: 10px;
+    border-radius: 20px;
+
+    
+}
+
+/*  introductry sentence */
+.intro{
+    position: relative;
+    text-align: center;
+    top:70px ;
+    right: 250px;
+}
+@media only screen and (max-width: 600) {
+    header{
+        display: contents;
+    }
+    .container-grid{
+        display: contents;
+    }
+    .pic{
+        width: 100px; height: 100px;
+    }
+    body{
+        font-size: small;
+    }
+}

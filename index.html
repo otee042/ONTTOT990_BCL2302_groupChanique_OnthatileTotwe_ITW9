@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stylessheet.css">
+    <script src="https://kit.fontawesome.com/78ab0afc33.js" crossorigin="anonymous"></script>
+    <title>digital resume</title>
+</head>
+<body>
+    <!-- div class that styles my resume -->
+    <div id="first">
+        <header>
+            <!--div for my grid-->
+            <div class="hearder">
+                <div class="picture">
+                    <picture>
+                        <source srcset="images/ontha.png"  media="(max-width: 600px)">
+                        <source srcset="images/onthati.png" media="(max-width: 946px)">
+                        <source srcset="images/onthatile.png" media="(max-width: 1920px)">
+                        <img class="pic" src="images/onthatile.png" alt="picture of myself">
+                    </picture>
+                </div>
+                <div class="intro">
+                    <h1>ONTHATILE TOTWE</h1>
+                        <h4>Web Developer</h4>
+                        <p>I am a flexible learner with time management skills. I am good communicator with proven inter personal skills and I am used to working in a team whilst also being capable of using own initiative. I am skilled in dealing with problems in a resourceful manner and negotiating to achieve beneficial agreement. I am always enthuastic to learn and undertake new challenges in order to achieve my goal of becoming a software engineer.</p>
+                </div>
+            </div>
+            <div class="aside">
+                <aside>
+                    <ul class="nav">
+                        <a href="#education">Education</a>
+                        <a href="#skills">Skills</a>
+                        <a href="#contacts">Contact Me</a>
+                        <a href="#form">Enquiry</a>
+                        <a href="#experience">Experience</a>
+                        <a href="#github">Github</a>
+                    </ul>
+                </aside>
+            </div>
+        </header>
+            <article>
+                <section>
+                    <!-- making my flexbox -->
+                    <div class="container-grid">
+                        <div class="container-1">
+                            <h2 id="education">Education</h2>
+                                <ul>
+                                    <li>I have completed my matric in 2019</li>
+                                    <li>I have enrolled at <a href="https://www.orbitcollege.co.za/" target="_blank">Orbit college</a> where I have completed my N4 in Business Management</li>
+                                    <li>I have completed my programming fundamental course at <a href="https://www.codespace.co.za/" target="_blank">Codespace Academy</a></li>
+                                    <li>Intro-to-web at <a href="https://www.codespace.co.za/" target="_blank">Codespace Academy</a></li>
+                                </ul>
+                        </div>
+                        <div class="container-2">
+                            <h2 id="skills">Skills</h2>
+                                <ul class="skills">
+                                    <li>Word, Powerpoint, Excel</li>
+                                    <li>Fast learner and Energetic</li>
+                                    <li>A team player and can also be a team leader</li>
+                                    <li>Can easily adapt to change</li>
+                                </ul>
+                        </div>
+                        <div class="container-3">
+                            <h2 id="experience">Experience</h2>
+                                <ul>
+                                    <li>Worked at Boxer store as a packer and consultant</li>
+                                    <li>Chef assistant at a local restaurant</li>
+                                </ul>
+                        </div>
+                    </div>
+                    
+                </section>
+            </article>
+        <footer>
+            <div class="fourth">
+                <h2 id="contacts">Contacts</h2>
+                    <ul class="contacts">
+                        <li><i class="fa-brands fa-facebook"></i><a href="https://www.facebook.com/profile.php?id=100090224513581" target="_blank"> facebook</a></li>
+                        <li><i class="fa-sharp fa-solid fa-envelope"></i><a href="mailto: onthatile.totwe2@gmail.com">onthatile.totwe2@gmail.com</a></li>
+                        <li><i class="fa-brands fa-linkedin"></i><a href="https://www.linkedin.com/" target="_blank"> LinkedIn</a></li>
+                        <li><i class="fa-brands fa-github" id="github"></i><a href="https://github.com/otee042" target="_blank">Github</a></li>
+                    </ul>
+            </div>
+            <h2 id="form">Enquiry</h2>
+            <div class="form">
+                <form action="https://formsubmit.co/onthatile.totwe2@gmail.com" method="post">
+
+                    <div>
+                        <label for="mail">Email:</label>
+                        <input type="mail" id="mail" name="user_mail" placeholder="email here" required>
+                    </div>
+                    <div>
+                        <input type="radio" name="title" value="Recruiter" required>
+                        <label for="title">Recruiter</label>
+
+                        <input type="radio" name="title" value="Employer" required>
+                        <label for="Employer">Employer</label>
+
+                        <input type="radio" name="title" value="Student" required>
+                        <label for="Student">Student</label>
+                    </div>
+                    <div>
+                        <textarea name="message" id="text" maxlength="50" cols="20" rows="10" placeholder="message here please"></textarea>
+                    </div>
+                        <input type="submit" value="submit">
+                        <button type="reset" value="Reset">Reset</button>
+                </form>
+            </div>
+        </footer>
+        
+    </div>
+
+</body>
+</html>
