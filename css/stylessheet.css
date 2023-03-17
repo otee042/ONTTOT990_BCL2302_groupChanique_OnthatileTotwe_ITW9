@@ -11,8 +11,9 @@ header{
     background-image: url(https://img.freepik.com/free-vector/abstract-fluid-neon-color-3d-effect-business-background-banner-design-multipurpose_1340-16790.jpg);
     background-size: cover;
 }
+/* introductory paragraph */
 h1{
-    color: whitesmoke;
+    color: white;
 }
 h4{
     color: whitesmoke;
@@ -20,8 +21,10 @@ h4{
 p{
     font-size: large;
 }
+/* Links */
 a{
     text-decoration: none;
+    color: blue;
 }
 
 /* contacts */
@@ -76,7 +79,7 @@ h2{
     height: 250px;
     border-radius: 50%;
     border: solid white;
-    margin-top: 50px;
+    margin: 50px;
 
 }
 /* form */
@@ -92,12 +95,10 @@ h2{
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: whitesmoke;
+    background-color: black;
     border-radius: 10px;
 }
-a{ 
-    color: blue;
-}
+
 a:hover{
     color: white;
     font-size: large;
@@ -128,11 +129,12 @@ footer{
 .intro{
     position: relative;
     text-align: center;
-    top:70px ;
+    top: 20px;
     right: 250px;
 }
-@media only screen and (max-width: 600) {
-    header{
+/* Mobile  */
+@media only screen and (max-width: 600px) {
+    .hearder{
         display: contents;
     }
     .container-grid{
@@ -144,14 +146,28 @@ footer{
     body{
         font-size: small;
     }
+    .intro{
+        position: relative;
+        text-align: center;
+        top: 0;
+        right: 0;
+    }
+    .picture{
+        position: relative;
+        text-align: center;
+    }
+    p{
+        font-size: small;
+    }
 }
-@media only screen and (min-width: 601px) and (max-width: 946px) {
+/* Tablet screen */
+@media only screen and (min-width: 601px) and (max-width: 966px) {
     .pic{
       width: 200px;
       height:  200px;
     }
     .header{
-      display: contents;
+      display: grid;
     }
     .container-grid{
         display: contents;
@@ -159,4 +175,6 @@ footer{
     body{
       font-size: medium;
     }
+
   }
+
